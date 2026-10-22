@@ -1,0 +1,4 @@
+
+# Dependencies and generated files
+node_modules/
+dist/
