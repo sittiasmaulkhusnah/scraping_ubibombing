@@ -85,23 +85,26 @@ File dataset utama: `gabungan_3keywords.csv`
 
 Struktur file utama proyek:
 
-```text
-tweet-harvest/
+
+scraping_ubibombing/
 ├── README.md
-├── package.json
-├── scrape_x.js
+├── .gitignore
+├── package-lock.json
+├── pnpm-workspace.yaml
+│
 ├── bersihkan_data.py
-├── saring_data.py
 ├── finalisasi_data.py
-├── saring_keyword3.py
 ├── gabungkan_keyword3.py
+├── periksa_relevansi.py
+├── saring_data.py
+├── saring_keyword3.py
+│
 └── tweets-data/
     ├── ubi_bombing.csv
     ├── tepung_singkong.csv
     ├── karhutla.csv
     ├── hasil_saringan_2keywords.csv
     └── gabungan_3keywords.csv
-```
 
 Nama dan lokasi file pada struktur di atas mengikuti susunan yang digunakan selama pengerjaan. File yang tidak tersedia atau memiliki nama berbeda perlu disesuaikan dengan kondisi repository.
 
